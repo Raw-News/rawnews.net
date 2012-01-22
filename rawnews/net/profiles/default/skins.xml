@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool"
+    allow_any="False" cookie_persistence="False" request_varname="plone_skin"
+    default_skin="Plumi Skin">
+
+ <object name="raw_news_style"
+    meta_type="Filesystem Directory View"
+    directory="rawnews.net:skins/raw_news_style"/>
+
+ <skin-path name="Plumi Skin">
+
+  <layer name="raw_news_style"
+         insert-after="custom"/>
+
+ </skin-path>
+
+</object>

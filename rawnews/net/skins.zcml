@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="rawnews.net">
+
+  <!-- File System Directory Views registration -->
+  <!-- <cmf:registerDirectory name="raw_news_images"/> -->
+  <!-- <cmf:registerDirectory name="plumi_skin_custom_templates"/> -->
+  <cmf:registerDirectory name="raw_news_style" />
+
+</configure>
