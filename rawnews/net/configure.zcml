@@ -18,6 +18,7 @@
   <include package="plumi.skin" />
   <include package="plumi.content" />
 
+  <include package=".browser" />
   <include file="./skins.zcml" />
 
 

@@ -1,0 +1,26 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:plone="http://namespaces.plone.org/plone"
+           i18n_domain="plumi">
+
+  <!-- 'Plumi Skin' Zope 3 browser layer -->
+
+  <!-- first try to inherit Plumis interface
+  <interface
+      interface="plumi.skin.interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="Plumi Skin"
+      />
+  -->
+
+  <!-- Viewlets registration -->
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for our stylesheets -->
+  <browser:resourceDirectory
+      name="rawnews.net.stylesheets"
+      directory="stylesheets"
+      layer="plumi.skin.browser.interfaces.IThemeSpecific"
+      />
+
+</configure>
