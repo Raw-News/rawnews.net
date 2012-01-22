@@ -23,4 +23,9 @@
       layer="plumi.skin.browser.interfaces.IThemeSpecific"
       />
 
+  <browser:resourceDirectory
+      name="rawnews.net.javascripts"
+      directory="javascripts"
+      />
+
 </configure>

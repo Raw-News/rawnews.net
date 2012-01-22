@@ -1,0 +1,15 @@
+/*
+  raw-news.net Corporate style
+  author: andrea.amantini@raw-news.net
+
+  we try to override plumi.css as a browser layer resource
+  just matching the same css specs here below
+
+*/
+
+
+#visual-portal-wrapper {
+  width: 990px;
+  margin: 8px auto;
+  background-color: pink;
+}

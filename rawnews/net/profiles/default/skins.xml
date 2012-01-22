@@ -3,20 +3,26 @@
     allow_any="False" cookie_persistence="False" request_varname="plone_skin"
     default_skin="Plumi Skin">
 
- <object name="raw_news_style"
-    meta_type="Filesystem Directory View"
-    directory="rawnews.net:skins/raw_news_style"/>
- <object name="raw_news_images"
-    meta_type="Filesystem Directory View"
-    directory="rawnews.net:skins/raw_news_images"/>
+  <object name="raw_news_style"
+          meta_type="Filesystem Directory View"
+          directory="rawnews.net:skins/raw_news_style"/>
+  <object name="raw_news_images"
+          meta_type="Filesystem Directory View"
+          directory="rawnews.net:skins/raw_news_images"/>
+  <object name="raw_news_javascripts"
+          meta_type="Filesystem Directory View"
+          directory="rawnews.net:skins/raw_news_javascripts"/>
 
- <skin-path name="Plumi Skin">
 
-   <layer name="raw_news_style"
-          insert-after="custom"/>
-   <layer name="raw_news_images"
-          insert-after="raw_news_style"/>
+  <skin-path name="Plumi Skin">
 
- </skin-path>
+    <layer name="raw_news_style"
+           insert-after="custom"/>
+    <layer name="raw_news_images"
+           insert-after="raw_news_style"/>
+    <layer name="raw_news_javascripts"
+           insert-after="raw_news_images"/>
+
+  </skin-path>
 
 </object>
