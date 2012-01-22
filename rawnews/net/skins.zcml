@@ -7,5 +7,6 @@
   <!-- <cmf:registerDirectory name="raw_news_images"/> -->
   <!-- <cmf:registerDirectory name="plumi_skin_custom_templates"/> -->
   <cmf:registerDirectory name="raw_news_style" />
+  <cmf:registerDirectory name="raw_news_images" />
 
 </configure>
