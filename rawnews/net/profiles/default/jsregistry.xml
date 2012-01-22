@@ -4,7 +4,7 @@
               cacheable="True"
               compression="safe"
               cookable="True"
-              enabled="False"
+              enabled="True"
               expression=""
               inline="False"
               insert-after="*"/>
@@ -12,7 +12,7 @@
               cacheable="True"
               compression="safe"
               cookable="True"
-              enabled="False"
+              enabled="True"
               expression=""
               inline="False"
               insert-after="skin_script.js"/>
